@@ -1,0 +1,129 @@
+html {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 6fr;
+    /* border: 0.5px solid gray; */
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #242234;
+    color: white;
+    box-shadow: #242234;
+}
+
+.mac-buttons {
+    grid-row: 0/1;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin-top: 10px; 
+    text-align: center;
+}
+
+.screen {
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.mac-button {
+    border-radius: 50%;
+    margin-right: 7px;
+    width: 20px;
+    height: 13px;
+}
+
+#close {
+    background-color: #ff5e57;
+    color: #ff5e57;  
+    padding-bottom: 7px;
+}
+
+#minimise {
+    background-color: #febc2d;
+    color: #febc2d;  
+    padding-bottom: 7px;
+}
+
+#expand {
+    background-color: #2dc840;
+    color: #2dc840;
+    padding-bottom: 7px;
+}
+
+#close:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#minimise:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#expand:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.top-screen {
+    height: 33%;
+    text-align: end;
+    font-size: large;
+}
+
+.bottom-screen {
+    height: 67%;
+    text-align: end;
+    font-size: 3em;
+}
+
+.buttons {
+    grid-row: 5/-1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons > div {
+    /* background-color: #5d586a; */
+    width: 86.5px;
+    height: 72px;
+    border: 0.5px solid #242234;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 75px;
+}
+
+#zero {
+    width: 174px;
+    border-bottom-left-radius: 20px;
+}
+
+#equals {
+    border-bottom-right-radius: 20px;
+}
+
+.operators {
+    background-color: #ff9f0b;
+}
+
+.clear {
+    background-color: #3c384e;
+}
+
+.numbers {
+    background-color: #5d586c;
+}
