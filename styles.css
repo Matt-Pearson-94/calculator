@@ -15,8 +15,8 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 6fr;
     /* border: 0.5px solid gray; */
-    width: 350px;
-    height: 500px;
+    width: 354px;
+    height: 550px;
     border-radius: 20px;
     background-color: #242234;
     color: white;
@@ -108,7 +108,7 @@ html {
 }
 
 #zero {
-    width: 174px;
+    width: 175px;
     border-bottom-left-radius: 20px;
 }
 
